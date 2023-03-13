@@ -127,12 +127,15 @@ li {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    word-wrap: break-word;
 }
 
 li span {
     font-weight: bold;
     font-size: 16px;
     padding: 10px;
+    overflow: auto;
+    margin-right: 15px;
 }
 
 
